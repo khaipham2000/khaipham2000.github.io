@@ -1,43 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
 
+    <style>
+      body{
+        margin: 0;
+      }
+      #container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        border: 1px solid red;
+        background-color:black;
+        display: flex;
+        height: 20px;
+        
+      }
 
-<style>
-  .box{
-border: 1px solid violet ;
-border-top-width: 5px ;
-float: left;
-width: 30%;
-}
-</style>
-</head>
-<body>
-
-<div>
-
-  <div id="banner" >
-     <img src="" alt="">
-</div>
-
-<div id="main-menu">
-  <a href="/buoi-4/index.html">Trang chu</a>
-  <a href="/buoi-4/iphone.html ">iPhone</a>
-  <a href="/buoi-4/samsung.html ">Samsung</a>
-  <a href="/buoi-4/xiaomi.html ">Xiaomi</a>
-</div>
-
-  </div>
+      .menu{ 
+        display: flex;
+        width: 20%;
+        justify-content: center; 
+        align-items: center;
+      }
+      
+      .back-to-top{
+width: 50px;
+height: 50px;
+display: flex; justify-content: center; align-items: center;
+position: fixed;
+border-radius: 50px;
+background-color: aqua;
+right: 0;
+bottom:0
+      }
+      a{
+        text-decoration: none;
+        color: white
+      }
+      a:hover {
+color: red;
+background-color: wheat;
+display: block;
+      }
+      .box {
+        border: 1px solid violet;
+        border-top-width: 5px;
+        float: left;
+        width: 30%;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <div id="banner">
+        <img src="" alt="" />
+      </div>
+<h3>
+      <div id="container">
+        <div class="menu"> <a href="/buoi-4/index.html">Trang chu</a> </div> 
+        <div class="menu"><a href="/buoi-4/iphone.html ">iPhone</a> </div>
+        <div class="menu"><a href="/buoi-4/samsung.html ">Samsung</a> </div>
+        <div class="menu"> <a href="/buoi-4/xiaomi.html ">Xiaomi</a> </div>
+        <div class="menu"> <a href="/buoi-4/xiaomi.html ">Sony</a> </div>
+        
+        
+      </h3>
+      </div>
+    </div>
     <h1>Smartphone</h1>
 
-<div class=" box samsung">
+    <div class="box samsung">
+      <h2>Samsung Galaxy S21 Ultra 5G</h2>
+
+      <div>Kích thước màn hình <span>6.8 inches</span></div>
+
+      <div>Bộ nhớ trong <span>128 GB</span></div>
+
+      <div>Dung lượng RAM <span>12 GB</span></div>
+    </div>
+
+    <div class="box iphone">
+      <h2>iPhone 13 Pro Max VNA</h2>
+
+      <div>Kích thước màn hình <span>6.7 inches</span></div>
+
+      <div>Bộ nhớ trong <span>128 GB</span></div>
+
+      <div>Dung lượng RAM<span>6 GB</span></div>
+    </div>
+
+    <div class="box xiaomi">
+      <h2>Xiaomi Mi 11 Lite 5G</h2>
+
+      <div>Kích thước màn hình <span>6.55 inches </span></div>
+
+      <div>Bộ nhớ trong <span>128 GB</span></div>
+
+      <div>Dung lượng RAM<span>8 GB</span></div>
+    </div> 
+  </div>
+</div>
+<h1>Smartphone</h1>
+
+<div class="box samsung">
   <h2>Samsung Galaxy S21 Ultra 5G</h2>
 
-  <div>Kích thước màn hình  <span>6.8 inches</span></div>
+  <div>Kích thước màn hình <span>6.8 inches</span></div>
 
   <div>Bộ nhớ trong <span>128 GB</span></div>
 
@@ -61,7 +135,78 @@ width: 30%;
 
   <div>Bộ nhớ trong <span>128 GB</span></div>
 
-  <div> Dung lượng RAM<span>8 GB</span></div>
+  <div>Dung lượng RAM<span>8 GB</span></div>
+</div> 
+
 </div>
-</body>
+</div>
+<h1>Smartphone</h1>
+
+<div class="box samsung">
+  <h2>Samsung Galaxy S21 Ultra 5G</h2>
+
+  <div>Kích thước màn hình <span>6.8 inches</span></div>
+
+  <div>Bộ nhớ trong <span>128 GB</span></div>
+
+  <div>Dung lượng RAM <span>12 GB</span></div>
+</div>
+
+<div class="box iphone">
+  <h2>iPhone 13 Pro Max VNA</h2>
+
+  <div>Kích thước màn hình <span>6.7 inches</span></div>
+
+  <div>Bộ nhớ trong <span>128 GB</span></div>
+
+  <div>Dung lượng RAM<span>6 GB</span></div>
+</div>
+
+<div class="box xiaomi">
+  <h2>Xiaomi Mi 11 Lite 5G</h2>
+
+  <div>Kích thước màn hình <span>6.55 inches </span></div>
+
+  <div>Bộ nhớ trong <span>128 GB</span></div>
+
+  <div>Dung lượng RAM<span>8 GB</span></div>
+</div> 
+
+</div>
+</div>
+<h1>Smartphone</h1>
+
+<div class="box samsung">
+  <h2>Samsung Galaxy S21 Ultra 5G</h2>
+
+  <div>Kích thước màn hình <span>6.8 inches</span></div>
+
+  <div>Bộ nhớ trong <span>128 GB</span></div>
+
+  <div>Dung lượng RAM <span>12 GB</span></div>
+</div>
+
+<div class="box iphone">
+  <h2>iPhone 13 Pro Max VNA</h2>
+
+  <div>Kích thước màn hình <span>6.7 inches</span></div>
+
+  <div>Bộ nhớ trong <span>128 GB</span></div>
+
+  <div>Dung lượng RAM<span>6 GB</span></div>
+</div>
+
+<div class="box xiaomi">
+  <h2>Xiaomi Mi 11 Lite 5G</h2>
+
+  <div>Kích thước màn hình <span>6.55 inches </span></div>
+
+  <div>Bộ nhớ trong <span>128 GB</span></div>
+
+  <div>Dung lượng RAM<span>8 GB</span></div>
+</div> 
+<div class="back-to-top"> chat
+  <img src="/buoi-1/img/" alt="">
+</div>
+  </body>
 </html>
