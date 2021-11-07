@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>image</title>
+    <style>
+      .body {
+        margin: 0;
+      }
+      .container {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+      }
+      .top,
+      .center,
+      .bottom {
+        width: 12%;
+      }
+
+      .image {
+        cursor: pointer;
+        transition: 0.3s;
+      }
+      .image:hover {
+        transform: scale(1.3);
+        opacity: 0.8;
+      }
+      .name {
+        position: absolute;
+        display: block;
+        color:white;
+        font-weight: bold;
+        letter-spacing: 2px;
+        bottom: 2px;
+        font-size: 20px; 
+        transition: 0.3s;
+        cursor: pointer;
+        left: 50%;
+        transform:translate(-50%);
+      }
+      .name:hover{ 
+          top:40%;
+           }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="top">
+        <div class="image">
+          <img width="150px" src="/buoi-5/img/batman.jpg" alt="batman" />
+          <div class="name">Batman</div>
+        </div>
+
+        <div class="image">
+          <img width="150px" src="/buoi-5/img/superman.jpg" alt="superman" />
+          <div class="name">Superman</div>
+        </div>
+
+        <div class="image">
+          <img
+            width="150px"
+            src="/buoi-5/img/wonder-woman.jpg"
+            alt="wonder-woman"
+          />
+          <div class="name">Wonder Woman</div>
+        </div>
+      </div>
+
+      <div class="center">
+        <div class="image">
+          <img width="150px" src="/buoi-5/img/flash.jpg" alt="flash" />
+          <div class="name">Flash</div>
+        </div>
+
+        <div class="image">
+          <img
+            width="150px"
+            src="/buoi-5/img/justice-league.jpg"
+            alt="justice-league"
+          />
+          <div class="name">Justice League</div>
+        </div>
+
+        <div class="image">
+          <img width="150px" src="/buoi-5/img/aquaman.jpg" alt="aquaman" />
+          <div class="name">Aquaman</div>
+        </div>
+      </div>
+
+      <div class="bottom">
+        <div class="image">
+          <img width="150px" src="/buoi-5/img/shazam.jpg" alt="shazam" />
+          <div class="name">Shazam</div>
+        </div>
+
+        <div class="image">
+          <img width="150px" src="/buoi-5/img/cycborg.jpg" alt="cycborg" />
+          <div class="name">Cycborg</div>
+        </div>
+
+        <div class="image">
+          <img
+            width="150px"
+            src="/buoi-5/img/green-lantern.jpg"
+            alt="green-lantern"
+          />
+          <div class="name">Green Lantern</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
