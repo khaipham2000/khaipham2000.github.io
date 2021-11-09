@@ -12,7 +12,7 @@ body {
     background-color: #ddd;
   }
   
-  .main-menu li {
+   .main-menu ul li  {
     position: relative;
   }
   
@@ -36,3 +36,4 @@ body {
   .main-menu li:hover .sub-menu {
     display: flex;
   }
+ 
