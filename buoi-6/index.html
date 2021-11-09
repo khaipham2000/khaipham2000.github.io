@@ -1,14 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <style>
+    body {
+      font-family: sans-serif;
+      font-size: 15px;
+    }
+    #menu ul {
+      background: #8ad385;
+      width: 250px;
+      padding: 0;
+      list-style-type: none;
+      text-align: left;
+    }
+    #menu li {
+      width: auto;
+      height: 40px;
+      line-height: 40px;
+      border-bottom: 1px solid #e8e8e8;
+      padding: 0 1em;
+    }
+    #menu li a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+      display: block;
+    }
+    #menu li:hover {
+      color: orangered;
+      background: #cde2cd;
+    }
+  </style>
+  <body>
     <header>
-        
+      <div id="menu">
+        <ul>
+          <li><a href="#">Thiết bị điện tử</a></li>
+          <div class="sub-menu">
+              <ul>
+                <li><a href="#">Điện thoại di động</a></li>
+                <li><a href="#">Máy tính bảng</a></li>
+                <li><a href="#">Laptop</a></li>
+              </ul>
+        </div>
+          <li><a href="#">Phụ kiện điện tử</a></li>
+          <li><a href="#">TV & Thiết Bị Điện Gia Dụng</a></li>
+          <li><a href="#">Sức Khỏe & Làm Đẹp</a></li>
+          <li><a href="#">Hàng Mẹ, Bé & Đồ Chơi</a></li>
+        </ul>
+      </div>
     </header>
-</body>
+  </body>
 </html>
