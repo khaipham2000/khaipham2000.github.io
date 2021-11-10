@@ -8,7 +8,7 @@ body {
   list-style-type: none;
   text-align: left;
 }
-.main-menu li {
+.main-menu li { 
   width: auto;
   height: 40px;
   line-height: 40px;
@@ -16,7 +16,7 @@ body {
   padding: 0 ;
   
 }
-.main-menu li a {
+.main-menu li a {padding: 0 1em;
   text-decoration: none;
   color: #2c2c54;
   font-weight: bold;
