@@ -13,7 +13,8 @@ body {
   height: 40px;
   line-height: 40px;
   border: 1px solid white;
-  padding: 0 1em;
+  padding: 0 ;
+  
 }
 .main-menu li a {
   text-decoration: none;
@@ -21,7 +22,7 @@ body {
   font-weight: bold;
   display: block;
 }
-.main-menu ul li {
+.main-menu ul  {
   position: relative;
 }
 .main-menu .sub-menu {
@@ -33,3 +34,8 @@ body {
 .main-menu li:hover .sub-menu {
   display: block;
 }
+.main-menu li a:hover { 
+  color: orangered;
+  background-color: wheat;
+
+  }
