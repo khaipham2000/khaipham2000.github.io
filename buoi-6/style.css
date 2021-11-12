@@ -29,11 +29,7 @@ body {
     left: 190px;
     border: 1px solid #ddd;
     padding: 10px;
-    width: max-content;
-    display: none;
+    width: max-content;  
   }
-  
   .main-menu li:hover .sub-menu {
-    display: flex;
-  }
- 
+    display: flex;}
