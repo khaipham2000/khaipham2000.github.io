@@ -8,21 +8,21 @@ body {
   list-style-type: none;
   text-align: left;
 }
-.main-menu li { 
+.main-menu li {
   width: auto;
   height: 40px;
   line-height: 40px;
   border: 1px solid white;
-  padding: 0 ;
-  
+  padding: 0;
 }
-.main-menu li a {padding: 0 1em;
+.main-menu li a {
+  padding: 0 1em;
   text-decoration: none;
   color: #2c2c54;
   font-weight: bold;
   display: block;
 }
-.main-menu ul  {
+.main-menu ul {
   position: relative;
 }
 .main-menu .sub-menu {
@@ -34,7 +34,20 @@ body {
 .main-menu li:hover .sub-menu {
   display: block;
 }
-.main-menu li a:hover { 
+.main-menu li a:hover {
   color: orangered;
   background-color: wheat;
-  }
+}
+li { 
+  color: red;
+}
+.dien-tu i{
+  position: absolute;
+  top:10px;
+  left: 280px;
+}
+.phu-kien i{
+  position: absolute;
+  top:55px;
+  left: 280px;
+}

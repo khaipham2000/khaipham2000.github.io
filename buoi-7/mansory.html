@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grid-item { width: 200px; }
+.grid-item--width2 { width: 400px; }
+img{
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+    </style>
+</head>
+<body>
+    <div class="grid">
+        <div class="grid-item">
+            <img src="https://i.pinimg.com/564x/7b/0d/e3/7b0de3c5c1a37bd6658c0d2cf920842b.jpg" alt="">
+        </div>
+        <div class="grid-item">
+            <img src="https://i.pinimg.com/564x/19/fd/ee/19fdee5494d50ded874f45f206fbef91.jpg" alt="">
+        </div>
+        <div class="grid-item">...</div>
+        ...
+      </div>
+      <div class="grid" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 200 }'></div>
+      
+      <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+      <script>
+          var elem = document.querySelector('.grid');
+var msnry = new Masonry( elem, {
+  // options
+  itemSelector: '.grid-item',
+  columnWidth: 200
+});
+
+// element argument can be a selector string
+//   for an individual element
+var msnry = new Masonry( '.grid', {
+  // options
+});
+      </script>
+</body>
+</html>
